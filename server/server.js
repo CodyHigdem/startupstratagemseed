@@ -7,7 +7,7 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var config = require('./config/database'); //the db config file
-var User require('./app/models/user'); // the mongoose DB model
+var User = require('./app/models/user'); // the mongoose DB model
 var port = process.env.PORT || 8080
 var jwt = require('jwt-simple');
 
