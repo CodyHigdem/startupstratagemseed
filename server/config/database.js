@@ -1,4 +1,3 @@
 module.exports = {
-  'secret': 'SecretSauce',
-  'database': 'mongodb://localhost/starter'
+  'url': 'mongodb://localhost/starter'
 };
